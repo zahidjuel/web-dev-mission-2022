@@ -10,8 +10,7 @@ body{
     border-left: 4px solid;
     border-image: linear-gradient(red,tomato);
     border-image-slice: 1;
-    padding-left: 15px;
-
+    padding-left: 10px;
 }
 .link-button{
     text-decoration: none;
@@ -25,6 +24,7 @@ body{
     display: flex;
     margin-top: 4%;
     margin-left: 10%;
+    margin-bottom: 4%;
   
 }
 .photo img{
@@ -34,6 +34,55 @@ body{
     text-align: center;
 }
 .bottom-left-side{
-    font-size: 25px;
+    font-size: 25px;  
+}
+h1> span{
+color: orange;
+}
+.second-section-heading{
+    text-align: center;
+}
+.flex-container{
+   width: 400px;
+   height: 400px;
+   background-color: whitesmoke;
+   box-shadow: 10px 10px 12px gray;
+   border-radius: 10px;
+   padding-left: 10px;
+   margin-right: 10%;
+ }
+ .flex-container img{
+     width: 80%;
+ }
+ .flex-container1{
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    box-shadow: 10px 10px 12px gray;
+    border-radius: 10px;
+    padding-left: 10px; 
+    margin-right: 10%;
+ }
+ .flex-container1 img{
+     width: 80%;
+ }
+.flex-container2{
+    width: 400px;
+    height: 400px;
+    background-color: wheat;
+    box-shadow: 10px 10px 12px gray;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 10%;
+}
+.flex-container2 img{
+    width: 80%;
+}
+.parent1{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 7%;
+    margin-top: 4%;
     
 }
