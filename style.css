@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
+    font-family: 'Poppins', sans-serif;
 }
 .color-text{
     color: orange;
@@ -34,7 +35,7 @@ body{
     text-align: center;
 }
 .bottom-left-side{
-    font-size: 25px;  
+    font-size: 20px;  
 }
 h1> span{
 color: orange;
@@ -44,7 +45,7 @@ color: orange;
 }
 .flex-container{
    width: 400px;
-   height: 400px;
+   height: 450px;
    background-color: whitesmoke;
    box-shadow: 10px 10px 12px gray;
    border-radius: 10px;
@@ -56,7 +57,7 @@ color: orange;
  }
  .flex-container1{
     width: 400px;
-    height: 400px;
+    height: 450px;
     background-color: pink;
     box-shadow: 10px 10px 12px gray;
     border-radius: 10px;
@@ -68,7 +69,7 @@ color: orange;
  }
 .flex-container2{
     width: 400px;
-    height: 400px;
+    height: 450px;
     background-color: wheat;
     box-shadow: 10px 10px 12px gray;
     border-radius: 10px;
@@ -104,7 +105,7 @@ color: orange;
     width: 85%;
 }
 .font-size3{
-    font-size: 25px;
+    font-size: 20px;
 }
 .fourth-section{
     margin-right: 50px;
@@ -127,9 +128,40 @@ color: orange;
 .left-side5{
     width: 400px;
     height: 400px;
-    box-shadow: 10px 10px 12px gray;
-    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+    background-color: papayawhip;
+    border-radius: 100px;
     padding-left: 10px;
     margin-right: 10%; 
 }
+.size-container{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: purple;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.size-container2{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: seagreen;
+    margin-right: 20px;
+    margin-bottom: 100px;  
+}
+.footer-section{
+    background-color: black;
+    text-align: center;
+    height: 200px;
+}
+.size-text{
+    font-family: 'Dancing Script', cursive;
+    
+}
+
 
